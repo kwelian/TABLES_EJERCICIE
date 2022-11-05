@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas Ejercicio</h1>
+    <hr>
+    <h2>Personal</h2>
+    <table >
+        <tr class="head">
+            <p class="desc"> <b>Clase Personal</b> </p>
+            <th>Nombre</th>
+            <th>Numero</th>
+            <th>Correo</th>
+        </tr>
+        <tr>
+            <td>Elian España</td>
+            <td>3213106438</td>
+            <td>ecespaa@misena.edu.co</td>
+        </tr>
+        <tr class="head">
+            <td>Juan Perlasa</td>
+            <td>3456765543</td>
+            <td>Perlasaj.11@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Karol Escobar</td>
+            <td>3117100479</td>
+            <td>escoKarol@gmail.com</td>
+        </tr>
+
+    </table>
+    <br>
+    <hr>
+    <h2>Trabajadores</h2>
+    
+    <table>
+        <tr class="head">
+            <p class="desc"> <b>Clase Trabajador</b> </p>
+            <th>Trabajador</th>
+            <th>Horas</th>
+            <th>Pago</th>
+        </tr>
+        <tr>
+            <td>Juan Ramirez</td>
+            <td>120</td>
+            <td>$10000</td>
+        </tr>
+        <tr>
+            <td>Maria Bocaseca</td>
+            <td>300</td>
+            <td>$25000</td>
+        </tr>
+        <tr>
+            <td>David Montaña</td>
+            <td>90</td>
+            <td>$9800</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <h2>Nombre y Edad</h2>
+    <table>
+        <tr class="head">
+            <p class="desc"> <b>Clase nombre y Edad</b> </p>
+            <th>Nombre</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Juan Ramirez</td>
+            <td>20</td>
+            
+        </tr>
+        <tr>
+            <td>Maria Bocaseca</td>
+            <td>30</td>
+            
+        </tr>
+        <tr>
+            <td>David Montaña</td>
+            <td>19</td>
+            
+        </tr>
+    </table>
+
+    <br>
+    <ul>
+        <li>Lista Uno</li>
+        <li>Lista Dos</li>
+        <li>Lista Tres</li>
+    </ul>
+    <br>
+    <h2 id="principal">Gracias por ver</h2>
+
+    <button onclick="displayResult()">Ver detalles</button>
+
+    <script>
+        function displayResult() {
+          document.getElementById("principal").innerHTML = "Estas son clases de tablas hechas en HTML y CSS";
+        }
+        </script>
+        <br>
+
+        <div class="footer">
+            <h3 class="pie">Contacto</h3>
+            <h3 class="pagina">Copyright</h3>
+        </div>
+</body>
+</html>
